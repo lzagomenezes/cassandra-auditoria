@@ -31,9 +31,9 @@ Quando um hash muda de um dia para o outro, há duas explicações possíveis, e
 
 ## Mudanças no formato
 
-- **07/11/2026:** o registro da Cripto passa a incluir a linha de revisões da leitura (`revisoes`: hora e texto
-  de cada atualização publicada). Por isso todos os hashes da Cripto mudam uma vez, do selo de 06/11 para o
-  de 07/11. Uma revisão nova depois disso muda o hash daquela leitura, e aparece no card dela no site.
+- **06/11/2026 (rodada das 23h50):** o registro da Cripto passa a incluir a linha de revisões da leitura (`revisoes`: hora e texto
+  de cada atualização publicada). Por isso o `cripto.txt` de 06/11 foi regerado nessa rodada (a primeira versão, da tarde, segue no histórico do
+  repositório). Uma revisão nova depois disso muda o hash daquela leitura, e aparece no card dela no site.
 
 ## Como conferir uma previsão
 
