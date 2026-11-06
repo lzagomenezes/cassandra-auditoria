@@ -29,6 +29,12 @@ Quando um hash muda de um dia para o outro, há duas explicações possíveis, e
 1. **Revisão automática da IA antes do prazo começar** — mostrada no card da previsão.
 2. **Correção feita à mão** (ex.: texto com nome errado) — listada em cassandra.news/auditoria, com o motivo.
 
+## Mudanças no formato
+
+- **07/11/2026:** o registro da Cripto passa a incluir a linha de revisões da leitura (`revisoes`: hora e texto
+  de cada atualização publicada). Por isso todos os hashes da Cripto mudam uma vez, do selo de 06/11 para o
+  de 07/11. Uma revisão nova depois disso muda o hash daquela leitura, e aparece no card dela no site.
+
 ## Como conferir uma previsão
 
 1. Peça ao Cassandra o registro da previsão (JSON).
